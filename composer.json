@@ -1,0 +1,43 @@
+{
+  "name": "takielias/codeigniter-websocket",
+  "description": "CodeIgniter Websocket using Ratchet Websocket technology for CodeIgniter 4",
+  "keywords": [
+    "codeigniter",
+    "codeigniter4",
+    "php7",
+    "php-library",
+    "codeigniter websocket",
+    "websocket",
+    "realtime",
+    "Ratchet"
+  ],
+  "homepage": "https://github.com/takielias/codeigniter-websocket",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Taki Elias",
+      "email": "taki.elias@gmail.com",
+      "homepage": "https://ebuz.xyz",
+      "role": "Software Engineer"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "cboden/ratchet": "^0.4.1",
+    "textalk/websocket": "^1.2"
+  },
+  "require-dev": {
+    "codeigniter4/framework": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Takielias\\CodeigniterWebsocket\\": "src"
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "composer dump-autoload",
+      "php spark migrate:latest -n all"
+    ]
+  }
+}
