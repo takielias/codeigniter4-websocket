@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "php": "^7.0",
+    "php": "^7.2",
     "cboden/ratchet": "^0.4.1",
     "textalk/websocket": "^1.2"
   },
