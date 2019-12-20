@@ -1,6 +1,6 @@
 {
-  "name": "takielias/codeigniter-websocket",
-  "description": "CodeIgniter Websocket using Ratchet Websocket technology for CodeIgniter 4",
+  "name": "takielias/codeigniter4-websocket",
+  "description": "Websocket using Ratchet Websocket technology for CodeIgniter 4",
   "keywords": [
     "codeigniter",
     "codeigniter4",
@@ -11,7 +11,7 @@
     "realtime",
     "Ratchet"
   ],
-  "homepage": "https://github.com/takielias/codeigniter-websocket",
+  "homepage": "https://github.com/takielias/codeigniter4-websocket",
   "license": "MIT",
   "authors": [
     {
