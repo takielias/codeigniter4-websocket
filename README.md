@@ -53,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 composer require takielias/codeigniter4-websocket @dev
 ```
 ### Publishing Resource
-You need to publish the resources for default configuration
+You need to publish the resources for the default configuration
 ```sh
 php spark websocket:publish
 ```
@@ -65,9 +65,9 @@ First start CodeIgniter
 php spark serve
 ```
 
-If you run the server in different port, follow the command below.
+If you run the server in a different port, follow the command below.
 ```sh
-php spark serve --port=9092
+PHP spark serve --port=9092
 ```
 
 **Finally start Websocket Server**
@@ -77,7 +77,7 @@ php public/index.php Websocket start
 
 **WOW You made it !!!** :heavy_check_mark: 
 
-Open two pages of your project on following url with different IDs :
+Open two pages of your project on the following URL with different IDs :
 
 **For default Port**
 `http://localhost:8080/Websocket/user/1`
@@ -114,7 +114,7 @@ Please check Websocket.php controller To get the Defining example of various Cal
 
     public function _event($datas = null)
     {
-        // Here you can do everyting you want, each time message is received
+        // Here you can do everything you want, each time message is received 
         echo 'Hey ! I\'m an EVENT callback' . PHP_EOL;
     }
 
@@ -133,7 +133,7 @@ See the [open issues](https://github.com/takielias/codeigniter4-websocket/issues
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
