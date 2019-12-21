@@ -26,7 +26,7 @@ CodeIgniter WebSocket library. It allows you to make powerfull realtime applicat
   * [Installation](#installation)
   * [Publishing](#publishing)
 * [Usage](#usage)
-  * [Authentication & callbacks](#authentication-callbacks)
+  * [Authentication and callbacks](#authentication-and-callbacks)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -88,7 +88,7 @@ Open two pages of your project on following url with different IDs :
 `http://localhost:9092/Websocket/user/2`
 
 <!-- Authentication & callbacks -->
-## Authentication & callbacks
+## Authentication and callbacks
 
 There are few predefined callbacks, here's the list :
 
