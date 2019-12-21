@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 ```sh
-composer require takielias/codeigniter4-websocket
+composer require takielias/codeigniter4-websocket @dev
 ```
 ### Publishing Resource
 You need to publish the resources for default configuration
