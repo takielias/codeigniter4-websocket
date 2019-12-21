@@ -33,7 +33,7 @@ class Websocket extends Controller
 
     public function user($user_id = null)
     {
-        return view('welcome_message', array('user_id' => $user_id));
+        return view('Websocket/websocket_message', array('user_id' => $user_id));
     }
 
     public function _auth($datas = null)

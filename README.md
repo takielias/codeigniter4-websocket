@@ -26,6 +26,7 @@ CodeIgniter WebSocket library. It allows you to make powerfull realtime applicat
   * [Installation](#installation)
   * [Publishing](#publishing)
 * [Usage](#usage)
+  * [Authentication & callbacks](#authentication-callbacks)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -59,11 +60,17 @@ php spark websocket:publish
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-First start Codeigniter
+First start CodeIgniter
 ```sh
 php spark serve
 ```
-Finally start Websocket Server
+
+If you run the server in different port, follow the command below.
+```sh
+php spark serve --port=9092
+```
+
+**Finally start Websocket Server**
 ```sh
 php public/index.php Websocket start
 ```
@@ -72,9 +79,36 @@ php public/index.php Websocket start
 
 Open two pages of your project on following url with different IDs :
 
-`http://localhost:8080/user/index/1`
+**For default Port**
+`http://localhost:8080/Websocket/user/1`
+`http://localhost:8080/Websocket/user/2`
 
-`http://localhost:8080/user/index/2`
+**For custom Port**
+`http://localhost:9092/Websocket/user/1`
+`http://localhost:9092/Websocket/user/2`
+
+<!-- Authentication & callbacks -->
+## Authentication & callbacks
+
+There are few predefined callbacks, here's the list :
+
+` auth, event, close, citimer, roomjoin, roomleave, roomchat `
+
+Please check Websocket.php controller To get the Defining example of various Callback Function
+
+```sh
+    public function start()
+    {
+        $ws = service('CodeigniterWebsocket');
+        $ws->set_callback('auth', array($this, '_auth'));
+        $ws->set_callback('event', array($this, '_event'));
+        $ws->run();
+    }
+ ```   
+Two Callback functions have been defined in the above example. First One is **auth** & the Second one is **event**.
+ 
+###### 🔨🔨🔨 If you need to customize Callback function, Please check the CodeigniterWebsocker.php config file in Your config directory.
+
 
 <!-- ROADMAP -->
 ## Roadmap
