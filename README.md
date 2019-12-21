@@ -104,6 +104,20 @@ Please check Websocket.php controller To get the Defining example of various Cal
         $ws->set_callback('event', array($this, '_event'));
         $ws->run();
     }
+
+    public function _auth($datas = null)
+    {
+        // Here you can verify everything you want to perform user login.
+
+        return (!empty($datas->user_id)) ? $datas->user_id : false;
+    }
+
+    public function _event($datas = null)
+    {
+        // Here you can do everyting you want, each time message is received
+        echo 'Hey ! I\'m an EVENT callback' . PHP_EOL;
+    }
+
  ```   
 Two Callback functions have been defined in the above example. First One is **auth** & the Second one is **event**.
  
