@@ -11,7 +11,6 @@ use CodeIgniter\Controller;
  *
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
-
 class Websocket extends Controller
 {
     /**
@@ -32,9 +31,9 @@ class Websocket extends Controller
         $ws->run();
     }
 
-    public function index()
+    public function user($user_id = null)
     {
-        return view('Websocket/websocket_message');
+        return view('welcome_message', array('user_id' => $user_id));
     }
 
     public function _auth($datas = null)
