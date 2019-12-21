@@ -61,12 +61,6 @@ class CodeigniterWebsocket
     public $callback = array();
 
     /**
-     * Define allowed callbacks
-     * @var array
-     */
-    protected $callback_type = array('auth', 'event', 'close', 'citimer', 'roomjoin', 'roomleave', 'roomchat');
-
-    /**
      * Class Constructor
      * @method __construct
      * @param array $config Configuration
@@ -130,7 +124,7 @@ class CodeigniterWebsocket
     public function set_callback($type = null, array $callback = array())
     {
         // Check if we have an authorized callback given
-        if (!empty($type) && in_array($type, $this->callback_type)) {
+        if (!empty($type) && in_array($type, $this->config->callbacks)) {
             // Verify if the method does really exists
             if (is_callable($callback)) {
                 // Register callback as class var

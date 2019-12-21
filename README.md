@@ -79,7 +79,7 @@ Open two pages of your project on following url with different IDs :
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/codeigniter4-websocket/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/takielias/codeigniter4-websocket/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -118,16 +118,16 @@ Taki Elias - [@cheapapp_net](https://twitter.com/cheapapp_net) - [https://ebuz.x
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/codeigniter4-websocket.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/codeigniter4-websocket/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/codeigniter4-websocket.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/codeigniter4-websocket/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/codeigniter4-websocket.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/codeigniter4-websocket/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/codeigniter4-websocket.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/codeigniter4-websocket/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/codeigniter4-websocket.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/codeigniter4-websocket/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/takielias/codeigniter4-websocket.svg?style=flat-square
+[contributors-url]: https://github.com/takielias/codeigniter4-websocket/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/takielias/codeigniter4-websocket.svg?style=flat-square
+[forks-url]: https://github.com/takielias/codeigniter4-websocket/network/members
+[stars-shield]: https://img.shields.io/github/stars/takielias/codeigniter4-websocket.svg?style=flat-square
+[stars-url]: https://github.com/takielias/codeigniter4-websocket/stargazers
+[issues-shield]: https://img.shields.io/github/issues/takielias/codeigniter4-websocket.svg?style=flat-square
+[issues-url]: https://github.com/takielias/codeigniter4-websocket/issues
+[license-shield]: https://img.shields.io/github/license/takielias/codeigniter4-websocket.svg?style=flat-square
+[license-url]: https://github.com/takielias/codeigniter4-websocket/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/takielias
 [product-screenshot]: images/screenshot.png

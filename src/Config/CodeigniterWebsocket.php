@@ -11,7 +11,6 @@ use CodeIgniter\Config\BaseConfig;
  *
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
-
 class CodeigniterWebsocket extends BaseConfig
 {
     public $host = "0.0.0.0";
@@ -22,4 +21,6 @@ class CodeigniterWebsocket extends BaseConfig
     public $debug = false;
     public $jwt_key = "GGFSRTSYTSOPLGCCXS";
     public $token_timeout = 1;
+
+    public $callbacks = ['auth', 'event', 'close', 'citimer', 'roomjoin', 'roomleave', 'roomchat'];
 }
