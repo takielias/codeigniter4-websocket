@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/takielias/codeigniter4-websocket">
-    <img src="https://user-images.githubusercontent.com/38932580/71280886-acce1c00-2386-11ea-95d7-23e1775d3724.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/38932580/71325065-b6d05600-2511-11ea-9169-694185c48f8b.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">CodeIgniter 4 WebSocket Library</h3>
