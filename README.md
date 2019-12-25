@@ -18,7 +18,7 @@
 
 CodeIgniter WebSocket library. It allows you to make powerfull realtime applications by using Ratchet [Socketo.me](http://socketo.me) Websocket technology.
 
-####WebSocket Library for Codeigniter 3.x https://github.com/takielias/codeigniter-websocket
+#### WebSocket Library for Codeigniter 3.x https://github.com/takielias/codeigniter-websocket
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
