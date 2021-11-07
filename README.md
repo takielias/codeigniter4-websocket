@@ -13,8 +13,12 @@
   <a href="https://github.com/takielias/codeigniter4-websocket">
     <img src="https://user-images.githubusercontent.com/38932580/71325065-b6d05600-2511-11ea-9169-694185c48f8b.png" alt="Logo" width="80" height="80">
   </a>
-
+  
   <h3 align="center">CodeIgniter 4 WebSocket Library</h3>
+
+<a href="https://www.buymeacoffee.com/takielias" target="_blank">
+<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
 
 CodeIgniter WebSocket library. It allows you to make powerfull realtime applications by using Ratchet [Socketo.me](http://socketo.me) Websocket technology.
 
@@ -165,6 +169,13 @@ Taki Elias - [@cheapapp_net](https://twitter.com/cheapapp_net) - [https://ebuz.x
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * [Font Awesome](https://fontawesome.com)
 
+
+## Support on Buy Me A Coffee
+Hey dude! Help me out for a cup of ☕!
+
+<a href="https://www.buymeacoffee.com/takielias" target="_blank">
+<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
