@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Taki Elias - [@takiele](https://twitter.com/cheapapp_net) - [https://ebuz.xyz](https://ebuz.xyz) - taki.elias@gmail.com
+Taki Elias - [@takiele](https://twitter.com/takiele) - [https://ebuz.xyz](https://ebuz.xyz) - taki.elias@gmail.com
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
