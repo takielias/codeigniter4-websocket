@@ -1,4 +1,6 @@
-<?php namespace Takielias\CodeigniterWebsocket\Config;
+<?php
+
+namespace Takielias\CodeigniterWebsocket\Config;
 
 use CodeIgniter\Config\BaseService;
 use CodeIgniter\Config\BaseConfig;
@@ -12,7 +14,6 @@ use CodeIgniter\Config\BaseConfig;
  *
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
-
 class Services extends BaseService
 {
     public static function CodeigniterWebsocket(BaseConfig $config = null, bool $getShared = true)

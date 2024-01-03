@@ -1,4 +1,6 @@
-<?php namespace Takielias\CodeigniterWebsocket\Libraries;
+<?php
+
+namespace Takielias\CodeigniterWebsocket\Libraries;
 
 use Takielias\CodeigniterWebsocket\Libraries\JWT;
 
@@ -11,7 +13,6 @@ use Takielias\CodeigniterWebsocket\Libraries\JWT;
  *
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
-
 class Authorization
 {
     public static function validateTimestamp($token)

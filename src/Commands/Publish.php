@@ -1,4 +1,6 @@
-<?php namespace Takielias\CodeigniterWebsocket\Commands;
+<?php
+
+namespace Takielias\CodeigniterWebsocket\Commands;
 
 use Config\Autoload;
 use CodeIgniter\CLI\CLI;
@@ -13,7 +15,6 @@ use CodeIgniter\CLI\BaseCommand;
  *
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
-
 class Publish extends BaseCommand
 {
     /**

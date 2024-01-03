@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - PHP 7.2+
-- CodeIgniter Framework (4.* recommanded)
+- CodeIgniter Framework (4.* recommended)
 - Composer
 - PHP sockets extension enabled
 
@@ -79,6 +79,11 @@ PHP spark serve --port=9092
 **Finally start Websocket Server**
 ```sh
 php public/index.php Websocket start
+```
+**N.B** : Don't forget to add the following line in app/Config/Routes.php `app/Config/Routes.php`
+
+```php
+$routes->setAutoRoute(true);
 ```
 
 **WOW You made it !!!** :heavy_check_mark: 

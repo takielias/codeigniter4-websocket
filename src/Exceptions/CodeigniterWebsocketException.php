@@ -1,4 +1,6 @@
-<?php namespace Takielias\CodeigniterWebsocket\Exceptions;
+<?php
+
+namespace Takielias\CodeigniterWebsocket\Exceptions;
 
 use CodeIgniter\Exceptions\ExceptionInterface;
 use CodeIgniter\Exceptions\FrameworkException;
@@ -12,7 +14,6 @@ use CodeIgniter\Exceptions\FrameworkException;
  *
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
-
 class CodeigniterWebsocketException extends FrameworkException implements ExceptionInterface
 {
     public static function forMissingName()

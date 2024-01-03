@@ -1,4 +1,6 @@
-<?php namespace Takielias\CodeigniterWebsocket\Libraries;
+<?php
+
+namespace Takielias\CodeigniterWebsocket\Libraries;
 
 use CodeIgniter\Config\BaseConfig;
 use Ratchet\ConnectionInterface;

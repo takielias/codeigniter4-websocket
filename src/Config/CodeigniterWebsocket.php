@@ -1,4 +1,6 @@
-<?php namespace Takielias\CodeigniterWebsocket\Config;
+<?php
+
+namespace Takielias\CodeigniterWebsocket\Config;
 
 use CodeIgniter\Config\BaseConfig;
 
