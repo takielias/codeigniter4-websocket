@@ -16,7 +16,7 @@ use CodeIgniter\Config\BaseConfig;
  */
 class Services extends BaseService
 {
-    public static function CodeigniterWebsocket(BaseConfig $config = null, bool $getShared = true)
+    public static function CodeigniterWebsocket(?BaseConfig $config = null, bool $getShared = true)
     {
         if ($getShared):
             return static::getSharedInstance('CodeigniterWebsocket', $config);
