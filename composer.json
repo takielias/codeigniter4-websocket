@@ -23,12 +23,15 @@
     }
   ],
   "require": {
-    "php": "^7.2|^8.0",
+    "php": "^8.0|^8.1|^8.2|^8.3|^8.4",
     "cboden/ratchet": "^0.4.4",
-    "textalk/websocket": "^1.6.3"
+    "phrity/websocket": "^3.7.3"
   },
   "require-dev": {
-    "codeigniter4/framework": "dev-master"
+    "codeigniter4/framework": "^4",
+    "phpunit/phpunit": "^9.0",
+    "symfony/http-foundation": "^6.0|^7.0|^8.0",
+    "symfony/routing": "^6.0|^7.0|^8.0"
   },
   "autoload": {
     "psr-4": {

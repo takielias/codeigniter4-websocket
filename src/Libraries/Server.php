@@ -154,7 +154,7 @@ class Server implements MessageComponentInterface
     public function onOpen(ConnectionInterface $connection)
     {
         // Add client to global clients object
-        $this->clients->attach($connection);
+        $this->clients->offsetSet($connection, null); // ponytail: PHP 8.5+ compat, was attach()
 
         // Output
         if ($this->config->debug) {
@@ -350,7 +350,7 @@ class Server implements MessageComponentInterface
             call_user_func_array($this->callback['close'], array($connection));
         }
         // Detach client from SplObjectStorage
-        $this->clients->detach($connection);
+        $this->clients->offsetUnset($connection); // ponytail: PHP 8.5+ compat, was detach()
     }
 
     /**
